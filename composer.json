@@ -1,0 +1,29 @@
+{
+    "name": "tomk79/px2-dec",
+    "description": "px2-dec は、Pickles 2 に DEC 拡張機能を追加します。",
+    "keywords": ["pickles"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomoya Koyanagi",
+            "email": "tomk79@gmail.com"
+        }
+    ],
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "tomk79/px-fw-2.x": "2.0.*",
+        "tomk79/px2-fess": "dev-master",
+        "tomk79/px2-px2dthelper": "dev-master",
+        "tomk79/pickles-sitemap-excel-2": "2.*",
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "files": [
+            "php/dec.php"
+        ]
+    }
+}
