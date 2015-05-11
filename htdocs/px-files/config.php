@@ -152,16 +152,12 @@ return call_user_func( function(){
 	];
 
 
-	// @$conf->plugins->px2dt->paths_module_template["FESS"] = "./vendor/tomk79/px2-fess/modules/";
-
-	// config for Plugins.
-	$conf->plugins = new stdClass;
-
 	// config for Pickles2 Desktop Tool.
-	$conf->plugins->px2dt = new stdClass;
-	$conf->plugins->px2dt->paths_module_template = [
-		// "PlainHTMLElements" => "./vendor/tomk79/px2-mod-plain-html-elements/modules/",
-		"FESS" => "../vendor/tomk79/px2-fess/modules/"
+	@$conf->plugins->px2dt->paths_module_template = [
+		"PlainHTMLElements" => "../vendor/tomk79/px2-mod-plain-html-elements/modules/",
+		"FESS" => "../vendor/tomk79/px2-fess/modules/",
+		"DEC" => "../modules/"
 	];
+
 	return $conf;
 } );

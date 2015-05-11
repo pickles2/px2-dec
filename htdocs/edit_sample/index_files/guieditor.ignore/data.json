@@ -1,0 +1,40 @@
+{
+ "bowl": {
+  "main": {
+   "modId": "_sys/root",
+   "fields": {
+    "main": [
+     {
+      "modId": "DEC:Comments/data-dec",
+      "fields": {
+       "dec": "DECコメントを埋め込みました。",
+       "main": [
+        {
+         "modId": "FESS:units/cols2",
+         "fields": {
+          "column1": [
+           {
+            "modId": "PlainHTMLElements:PlainHTML/Markdown",
+            "fields": {
+             "main": "## markdown で書いています。\n\n- DECコメントの内側にネストしています。"
+            }
+           }
+          ],
+          "column2": [
+           {
+            "modId": "PlainHTMLElements:PlainHTML/Markdown",
+            "fields": {
+             "main": "## markdown で書いています。\n\n- DECコメントの内側にネストしています。"
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ }
+}
