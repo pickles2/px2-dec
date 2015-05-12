@@ -37,6 +37,7 @@
  * @package PlaceLocalInclude
  * @subpackage simple_html_dom
  */
+namespace tomk79\pickles2\dec;
 
 /**
  * All of the Defines for the classes below.

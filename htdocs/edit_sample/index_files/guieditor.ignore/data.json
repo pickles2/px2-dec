@@ -32,6 +32,12 @@
         }
        ]
       }
+     },
+     {
+      "modId": "DEC:Comments/data-dec-block",
+      "fields": {
+       "main": ""
+      }
      }
     ]
    }
