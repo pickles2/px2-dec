@@ -10,6 +10,12 @@
        "dec": "DECコメントを埋め込みました。",
        "main": [
         {
+         "modId": "DEC:Comments/data-dec-block",
+         "fields": {
+          "main": "## DECコメント。"
+         }
+        },
+        {
          "modId": "FESS:units/cols2",
          "fields": {
           "column1": [
@@ -36,7 +42,7 @@
      {
       "modId": "DEC:Comments/data-dec-block",
       "fields": {
-       "main": ""
+       "main": "DECコメントブロックです。"
       }
      }
     ]
