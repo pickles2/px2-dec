@@ -12,12 +12,6 @@ px2-dec は、Pickles 2 に DEC 拡張機能を追加します。
 
 ```
 {
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/tomk79/px2-dec.git"
-        }
-    ],
     "require": {
         "tomk79/px2-dec": "dev-master"
     }
