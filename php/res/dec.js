@@ -108,7 +108,7 @@
 		// end of original DEC
 	}
 
-	console.log(params['showDEC']);
+	// console.log(params['showDEC']);
 	if( params['showDEC'] ){
 		showDEC();
 	}
