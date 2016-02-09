@@ -13,7 +13,7 @@ px2-dec は、Pickles 2 に DEC 拡張機能を追加します。
 ```
 {
     "require": {
-        "tomk79/px2-dec": "dev-master"
+        "pickles2/px2-dec": "dev-master"
     }
 }
 ```
@@ -53,12 +53,12 @@ $conf->funcs->processor->html = [
 ];
 ```
 
-DECモジュールを利用する場合、`$conf->plugins->px2dt->paths_module_template` に `./vendor/tomk79/px2-dec/modules/` を追加。
+DECモジュールを利用する場合、`$conf->plugins->px2dt->paths_module_template` に `./vendor/pickles2/px2-dec/modules/` を追加。
 
 ```php
 <?php
 // config for Pickles2 Desktop Tool.
-@$conf->plugins->px2dt->paths_module_template["DEC"] = "./vendor/tomk79/px2-dec/modules/";
+@$conf->plugins->px2dt->paths_module_template["DEC"] = "./vendor/pickles2/px2-dec/modules/";
 ```
 
 

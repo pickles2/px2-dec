@@ -13,7 +13,9 @@
          "modId": "DEC:Comments/data-dec-block",
          "fields": {
           "main": "## DECコメント。"
-         }
+         },
+         "anchor": "",
+         "dec": ""
         },
         {
          "modId": "FESS:units/cols2",
@@ -23,7 +25,9 @@
             "modId": "PlainHTMLElements:PlainHTML/Markdown",
             "fields": {
              "main": "## markdown で書いています。\n\n- DECコメントの内側にネストしています。"
-            }
+            },
+            "anchor": "",
+            "dec": ""
            }
           ],
           "column2": [
@@ -31,10 +35,14 @@
             "modId": "PlainHTMLElements:PlainHTML/Markdown",
             "fields": {
              "main": "## markdown で書いています。\n\n- DECコメントの内側にネストしています。"
-            }
+            },
+            "anchor": "",
+            "dec": ""
            }
           ]
-         }
+         },
+         "anchor": "",
+         "dec": ""
         }
        ]
       }
@@ -43,7 +51,9 @@
       "modId": "DEC:Comments/data-dec-block",
       "fields": {
        "main": "DECコメントブロックです。"
-      }
+      },
+      "anchor": "",
+      "dec": ""
      }
     ]
    }
