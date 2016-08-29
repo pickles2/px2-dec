@@ -13,7 +13,7 @@ px2-dec は、Pickles 2 に DEC 拡張機能を追加します。
 ```
 {
     "require": {
-        "pickles2/px2-dec": "dev-master"
+        "pickles2/px2-dec": "2.0.*"
     }
 }
 ```
@@ -70,3 +70,21 @@ DECモジュールを利用する場合、`$conf->plugins->px2dt->paths_module_t
 $ cd {$documentRoot}
 $ composer test
 ```
+
+## 更新履歴 - Change log
+
+### pickles2/px2-dec 2.0.0 (2016年??月??日)
+
+- initial release.
+
+## ライセンス - License
+
+Copyright (c)2001-2016 Tomoya Koyanagi, and Pickles 2 Project<br />
+MIT License https://opensource.org/licenses/mit-license.php
+
+
+## 作者 - Author
+
+- Tomoya Koyanagi <tomk79@gmail.com>
+- website: <http://www.pxt.jp/>
+- Twitter: @tomk79 <http://twitter.com/tomk79/>
