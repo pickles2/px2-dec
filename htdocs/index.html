@@ -60,3 +60,5 @@
 
 
 
+<?php ob_start(); ?>
+<?php $px->bowl()->send( ob_get_clean(), "test_area_001" ); ?>

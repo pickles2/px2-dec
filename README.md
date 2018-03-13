@@ -13,7 +13,7 @@ px2-dec は、Pickles 2 に DEC 拡張機能を追加します。
 ```
 {
     "require": {
-        "pickles2/px2-dec": "2.0.*"
+        "pickles2/px2-dec": "^2.0.0"
     }
 }
 ```
@@ -73,7 +73,11 @@ $ composer test
 
 ## 更新履歴 - Change log
 
-### pickles2/px2-dec 2.0.0 (2016年??月??日)
+### pickles2/px2-dec 2.0.1 (未定)
+
+- 0バイトのコンテンツがある場合に Fatal Error が起きる不具合を修正した。
+
+### pickles2/px2-dec 2.0.0 (2016年8月30日)
 
 - initial release.
 

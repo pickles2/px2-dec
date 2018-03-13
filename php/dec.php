@@ -58,11 +58,13 @@ class main{
 				DEFAULT_BR_TEXT, // $defaultBRText
 				DEFAULT_SPAN_TEXT // $defaultSpanText
 			);
-			$ret = $html->find('*[data-dec-block]');
-			foreach( $ret as $retRow ){
-				$retRow->outertext = '';
+			if( $html ){
+				$ret = $html->find('*[data-dec-block]');
+				foreach( $ret as $retRow ){
+					$retRow->outertext = '';
+				}
+				$src = $html->outertext;
 			}
-			$src = $html->outertext;
 
 			$px->bowl()->replace( $src, $key );
 		}
