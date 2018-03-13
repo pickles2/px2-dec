@@ -73,7 +73,7 @@ $ composer test
 
 ## 更新履歴 - Change log
 
-### pickles2/px2-dec 2.0.1 (未定)
+### pickles2/px2-dec 2.0.1 (2018年3月16日)
 
 - 0バイトのコンテンツがある場合に Fatal Error が起きる不具合を修正した。
 
