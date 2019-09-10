@@ -11,7 +11,7 @@ return call_user_func( function(){
 
 	// paths
 	$conf->path_top = '/'; // トップページのパス(デフォルト "/")
-	$conf->path_publish_dir = '../public_html/'; // パブリッシュ先ディレクトリパス
+	$conf->path_publish_dir = '../dist/'; // パブリッシュ先ディレクトリパス
 	$conf->public_cache_dir = '/caches/'; // 公開キャッシュディレクトリ
 	$conf->contents_manifesto = '/common/contents_manifesto.ignore.php'; // Contents Manifesto のパス
 
