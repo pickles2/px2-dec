@@ -1,7 +1,7 @@
 {
     "name": "pickles2/px2-dec",
     "description": "px2-dec は、Pickles 2 に DEC 拡張機能を追加します。",
-    "keywords": ["pickles"],
+    "keywords": ["pickles2"],
     "license": "MIT",
     "authors": [
         {
