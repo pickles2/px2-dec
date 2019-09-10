@@ -156,7 +156,7 @@ return call_user_func( function(){
 	@$conf->plugins->px2dt->paths_module_template = [
 		"PlainHTMLElements" => "../vendor/pickles2/broccoli-module-plain-html-elements/modules/",
 		"FESS" => "../vendor/pickles2/broccoli-module-fess/modules/",
-		"DEC" => "../modules/"
+		"DEC" => "../../../modules/"
 	];
 
 	return $conf;
