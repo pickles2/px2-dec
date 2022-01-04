@@ -6,10 +6,10 @@
  * $ ./vendor/phpunit/phpunit/phpunit picklesTest "./px-files/_sys/tests/picklesTest.php"
  */
 
-class picklesTest extends PHPUnit_Framework_TestCase{
+class picklesTest extends PHPUnit\Framework\TestCase{
 	private $fs;
 
-	public function setup(){
+	public function setup() : void{
 		mb_internal_encoding('UTF-8');
 		$this->fs = new tomk79\filesystem();
 	}
