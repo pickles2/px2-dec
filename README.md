@@ -73,26 +73,26 @@ $ composer test
 
 ## 更新履歴 - Change log
 
-### pickles2/px2-dec 2.1.0 (リリース日未定)
+### pickles2/px2-dec v2.1.0 (2022年1月8日)
 
 - サポートするPHPのバージョンを `>=7.3.0` に変更。
 - PHP 8.1 に対応した。
 
-### pickles2/px2-dec 2.0.2 (2019年9月10日)
+### pickles2/px2-dec v2.0.2 (2019年9月10日)
 
 - PHP 7.3系 で起きるエラーを修正した。
 
-### pickles2/px2-dec 2.0.1 (2018年3月16日)
+### pickles2/px2-dec v2.0.1 (2018年3月16日)
 
 - 0バイトのコンテンツがある場合に Fatal Error が起きる不具合を修正した。
 
-### pickles2/px2-dec 2.0.0 (2016年8月30日)
+### pickles2/px2-dec v2.0.0 (2016年8月30日)
 
 - initial release.
 
 ## ライセンス - License
 
-Copyright (c)2001-2019 Tomoya Koyanagi, and Pickles 2 Project<br />
+Copyright (c)2001-2022 Tomoya Koyanagi, and Pickles 2 Project<br />
 MIT License https://opensource.org/licenses/mit-license.php
 
 
